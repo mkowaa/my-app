@@ -1,0 +1,49 @@
+.spacing {
+  justify-content: space-between;
+  display: flex;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  background: #79b09e;
+  height: 65px;
+  box-shadow :0 10px 10px rgb(66, 78, 73);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 23px;
+}
+.button {
+  position: relative;
+  bottom: 10px;
+  left: 15px;
+  width: 160px;
+  height: 40px;
+  font-size: large;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #608c7a;
+  padding: .5em 2em;
+  border: 2px solid;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.button8:hover {
+  background: rgba(255,255,255,.2);
+}
+.button8:active {
+  background: white;
+}
+.fa-shopping-cart{
+  color: black;
+  transition: .5s ease-in-out;
+}
+.fa-shopping-cart:hover:not(:active){
+  color: dimgrey;
+}
+.fa-shopping-cart:active{
+  color: steelblue;
+}
+.layer1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  text-decoration-line: underline;
+}

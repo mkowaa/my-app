@@ -1,0 +1,8 @@
+{
+  "/getData": {
+    "target": "localhost:4200",
+    "secure": "false",
+    "loglevel": "debug",
+    "changeOrigin": true
+  }
+}

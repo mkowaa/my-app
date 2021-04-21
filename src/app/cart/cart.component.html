@@ -1,0 +1,17 @@
+<div class="banner">
+  <h1 class="layer1">Ваши товары:</h1>
+  <mat-grid-list cols="3">
+    <mat-grid-tile *ngFor="let i of items">
+      <a [class.mat-maincolor]="items"><br>
+        <img class="imgproducts" [src]="i.img" alt="..."><br>
+        <p>{{i.name}}</p>
+<!--        <p *ngIf="i.description">{{i.description}}</p>-->
+        <button mat-stroked-button color="warn" (click)="deleteItem(i)">Удалить товар</button>
+      </a>
+    </mat-grid-tile>
+  </mat-grid-list><br>
+  <button mat-stroked-button color="warn" (click)="clearCart()">Очистить корзину</button>
+</div>
+
+
+

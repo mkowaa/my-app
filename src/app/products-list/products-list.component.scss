@@ -1,0 +1,36 @@
+.layer1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 45px;
+  line-height: 2.5;
+  font-weight: bold;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.banner{
+  background: url("./../../assets/img/fon2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mat-maincolor {
+  top:5px;
+  position: relative;
+  width: 60%;
+  height: 480px;
+  text-align: center;
+  font-size: large;
+  color: black;
+  line-height: 1.5;
+  background-color: white;
+  box-shadow :0 10px 10px rgba(0, 0, 0, 0.6);
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: 6px solid #b0877b;
+}
+.imgproducts {
+  position: relative;
+  top: 5px;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 30px 15px 30px 10px;
+}

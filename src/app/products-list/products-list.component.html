@@ -1,0 +1,18 @@
+<div class="banner">
+  <br><h1 class="layer1">Products:</h1>
+  <mat-grid-list cols="2">
+  <mat-grid-tile *ngFor="let product of products" [style.background]="product.color">
+    <div [class.mat-maincolor]="products">
+      <img class="imgproducts" [src]="product.img" alt="..."><br>
+        {{product.name}}<br>
+        {{product.price|currency}}<br>
+        <p *ngIf="product.description">
+          Описание: {{ product.description }}
+        </p>
+      <button mat-stroked-button color="" (click)="addProductToCart(product)">
+      <span>В корзину</span>
+      </button>
+    </div>
+  </mat-grid-tile>
+  </mat-grid-list>
+</div>
